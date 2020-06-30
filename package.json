@@ -1,5 +1,5 @@
 {
-  "name": "use-single-history",
+  "name": "@ivliu/use-single-history",
   "version": "1.0.0",
   "description": "history的单例模式",
   "author": "",
@@ -21,7 +21,9 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "history": "^5.0.0"
+  },
   "peerDependencies": {
     "react": "^16.9.0"
   },
